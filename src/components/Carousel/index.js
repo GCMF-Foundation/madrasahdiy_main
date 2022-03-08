@@ -49,7 +49,6 @@ function Index() {
     <div className="school-list-container">
       {logos.length > 0 ? (
         <div>
-          <h4 className="mb-5">Mereka telah bergabung bersama Geschool</h4>
           <Slider {...carouselProperties} autoplay autoplaySpeed={2000}>
             {logos.map((item, index) => (
               <div key={index} className="item mr-3">

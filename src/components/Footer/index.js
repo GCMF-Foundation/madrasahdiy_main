@@ -7,18 +7,6 @@ function Index(props) {
     <footer className="col-12 footer">
       <div className="justify-content-center">
         <div className="col-12 text-light">
-          <ul className="list-inline d-flex footer-list">
-            <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://s.id/geschool"
-                className="footer-link bold"
-              >
-                Road Map to Geschool
-              </a>
-            </li>
-          </ul>
           <ul className="list-inline d-flex footer-list link-list">
             <li>
               <a
@@ -52,7 +40,12 @@ function Index(props) {
             </li>
           </ul>
         </div>
-        <div className="col-12 copyright mt-2">&copy; {props.copyright}</div>
+        <div className="col-12 copyright mt-2">
+          &copy; {props.copyright}{" "}
+          <a target="_blank" rel="noreferrer" href="https://s.id/geschool">
+            Geschool
+          </a>
+        </div>
       </div>
     </footer>
   );

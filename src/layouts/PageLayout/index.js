@@ -15,7 +15,7 @@ function pageLayout(props) {
   const slogan =
     // "Dan ketahuilah, tidak ada jalan yang lebih dekat dari kejujuran, tidak ada dalil yang lebih berhasil dari ilmu, dan tidak ada bekal yang lebih sampai dari takwa."
     "Orang berilmu ibarat gula yang mengundang banyak semut. Dia menjadi cahaya bagi diri dan sekelilingnya";
-  const copyright = "Madrasah DIY Blended Learning - Didukung oleh Geschool";
+  const copyright = "Madrasah DIY Blended Learning - Didukung oleh ";
 
   return (
     <div>
