@@ -12,9 +12,7 @@ function pageLayout(props) {
   const deskripsi = "Selamat datang kembali di";
   const title1 = "Madrasah DIY";
   const title2 = "Blended Learning";
-  const slogan =
-    // "Dan ketahuilah, tidak ada jalan yang lebih dekat dari kejujuran, tidak ada dalil yang lebih berhasil dari ilmu, dan tidak ada bekal yang lebih sampai dari takwa."
-    "Orang berilmu ibarat gula yang mengundang banyak semut. Dia menjadi cahaya bagi diri dan sekelilingnya";
+  const slogan = "Informasi Penerimaan Peserta Didik Baru (PPDB) Madrasah DIY ";
   const copyright = "Madrasah DIY Blended Learning - Didukung oleh ";
 
   return (
